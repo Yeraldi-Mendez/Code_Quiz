@@ -68,5 +68,33 @@ var score = document.getElementById("score");
 var initials = document.getElementById("initials");
 var submit = document.getElementById("submit");
 var highscore = document.getElementById("highscore");
+var activeQuestion = 1;
 var timeLeft = 60;
 var games = [];
+
+
+//this is event listener to start quiz/timer
+start.addEventListener("click", function(){
+    countdown();
+    renderQuestions(myQuestions[0]);
+});
+
+questions.addEventListener("click", function(event){
+    if (activeQuestion === 5) {
+        answers.textContent = "Congrats! All correct, Game over";
+        score.textContent = timeLeft;
+    }
+
+    else if(event.target.textContent !== myQuestions[activeQuestion - 1].correctAnswer)
+    {
+        answers.textContent = "Opps, try again!";
+        timeLeft -= 5;
+    }
+
+    else {
+        answers.textContent = "You are correct!";
+        console.log(timeLeft);
+        activeQuestion++;
+        renderQuestions(myQuestions[activeQuestion - 1]);
+    }
+});
