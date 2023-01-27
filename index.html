@@ -17,12 +17,17 @@
     </header>
 
     <div class="quizContent">
-        <p> Time Remaining: </p>
-        <button> Start Quiz </button>
+      <div id = "questions"></div>
+      <div id = "answers"></div>
+    </div>
+
+    <div class="controls">
+        <p> Time Remaining: <span id="countdown">60</span> </p>
+        <button class = "button" id = "startQuiz"> Start Quiz </button>
     </div>
 
     <form>
-        <div> Score: </div>
+        <div> Score: <span id = "score"></span></div>
 
         <input name="name" placeholder="name"/>
         <button> Submit </button>
