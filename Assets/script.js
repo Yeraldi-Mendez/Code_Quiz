@@ -57,4 +57,16 @@ var myQuestions = [
     },
     correctAnswer: "var colors = ['red', 'green', 'blue']"
     },
-]
+];
+
+//declaring variables
+var start = document.getElementById("start-quiz");
+var questions = document.getElementById("questions");
+var answers = document.getElementById("answers");
+var timer = document.getElementById("countdown");
+var score = document.getElementById("score");
+var initials = document.getElementById("initials");
+var submit = document.getElementById("submit");
+var highscore = document.getElementById("highscore");
+var timeLeft = 60;
+var games = [];
