@@ -2,7 +2,8 @@
 website: simplestepscose.com/javascript-quiz-tutorial 
 */
 /* got quiz questions from https://www.w3schools.com/quiztest/quiztest.asp?qtest=JS*/
-
+//questions show up, 1 & 2 but does not continue to the rest
+//needs fixing
 const myQuestions = [
     {
         question: "Inside which HTML element do we put the JavaScript?",
