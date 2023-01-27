@@ -6,7 +6,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: teal;
+  
 }
 
 h1 {
@@ -26,23 +26,25 @@ p{
   text-align: center;
 }
 
-.quizContent{
+.quiz{
   text-align: center;
   font-size: 20px;
   padding: 50px;
-  background-color: cadetblue;
+
+}
+#questions{
+  text-align: center;
+  color:black;
 }
 
 #answers {
   text-align: center;
-  color:white;
+  color:black;
 }
 
 #submit{
   border-radius: 6px;
   text-align: center;
-  background-color: rgb(155, 8, 175);
-  color: hsl(0, 0%, 100%);
 }
 
 form{
@@ -58,7 +60,7 @@ form{
 
 .button{
   border: none;
-  background-color: blue;
+  background-color:  #c89ed6;
   display: inline-block;
   font-size: 20px;
   line-height: 3;

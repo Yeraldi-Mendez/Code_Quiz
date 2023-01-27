@@ -11,27 +11,29 @@
   <body>
     <header>
         <h1> Coding Quiz </h1>
-        <h2>Answer the following questions within the time limit.
+        <h2> Answer the following questions within the time limit.
             Wrong answers will penelize you by taking 10 seconds away.
         </h2>
     </header>
 
-    <div class="quizContent">
+    <div class="quiz">
       <div id = "questions"></div>
+
       <div id = "answers"></div>
     </div>
 
     <div class="controls">
         <p> Time Remaining: <span id="countdown">60</span> </p>
-        <button class = "button" id = "startQuiz"> Start Quiz </button>
+        <button class="button" id="start-quiz">Start Quiz</button>
     </div>
 
     <form>
         <div> Score: <span id = "score"></span></div>
-
-        <input name="name" placeholder="name"/>
-        <button> Submit </button>
-        <ol id ="highscore"> Highscore: </ol>
+        <label for = "initals"></label>
+        <input type="text" name="name" id= "initials" placeholder="name"/>
+        <button id = "submit"> Submit </button>
+        <ol id ="highscore"> <span><b>Highscore: </b></span></ol>
     </form>
     <script src="./Assets/script.js"></script>
   </body>
+</html>
