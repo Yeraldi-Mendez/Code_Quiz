@@ -30,10 +30,10 @@ THEN I can save my initials and my score
 ```
 
 ## Repository Link
-
+https://github.com/Yeraldi-Mendez/Code_Quiz.git
 
 ## Deployed website
-
+https://yeraldi-mendez.github.io/Code_Quiz/
 ---
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
